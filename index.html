@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+published: true
+---
+
 <!doctype html>
 <html>
   <head>
@@ -27,29 +33,23 @@
 
       </header>
       <section>
-        <h3>
+        
 
-<h3> I'm a C++/Java Developer with interest in full stack development. I blog very short, easy to understand tutorials for people
-  who don't have time or patience. I try to create animations and pictures with less text. Here are the list of all posts in my github pages
-</h3>
+      <p> I'm a C++/Java Developer with interest in full stack development. I blog very short, easy to understand tutorials for people
+        who don't have time or patience. I try to create animations and pictures with less text. Here are the list of all posts in my github pages
+      </p>
+      
+      <p>
+        <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+      <p>
 
-<h3>
-  <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-<h3>
-  
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
   </body>
