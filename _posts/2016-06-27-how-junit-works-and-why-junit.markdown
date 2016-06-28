@@ -1,7 +1,7 @@
 ---
 published: true
 title: How JUnit Works and Why JUnit
-layout: post
+layout: default
 ---
 JUnit is de-facto standard of Java unit testing. But it's awkward for me that I don't understand why do we need it and how it works under the hood. So here is what I found.
 
