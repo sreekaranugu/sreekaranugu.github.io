@@ -4,53 +4,15 @@ title: Home
 published: true
 ---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Sreekar Anugu by sreekaranugu</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Sreekar Anugu</h1>
-        <p class="header">Programming Blog...</p>
-
-
-
-        <ul>
-          <li><a class="buttons github" href="https://github.com/sreekaranugu">GitHub Profile</a></li>
-        </ul>
-
-      </header>
-      <section>
-        
-
-      <p> I'm a C++/Java Developer with interest in full stack development. I blog very short, easy to understand tutorials for people
-        who don't have time or patience. I try to create animations and pictures with less text. Here are the list of all posts in my github pages
-      </p>
+I'm a C++/Java Developer with interest in full stack development. I blog very short, easy to understand tutorials for people who don't have time or patience. I try to create animations and pictures with less text. Here are the list of all posts in my github pages
+     
       
-      <p>
-        <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            {{ post.excerpt }}
-          </li>
-        {% endfor %}
-      </ul>
-      <p>
-
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-  </body>
-</html>
+<p>
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<p>
