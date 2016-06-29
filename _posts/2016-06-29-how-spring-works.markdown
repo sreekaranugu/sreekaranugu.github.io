@@ -1,5 +1,5 @@
 ---
-published:true
+published: true
 title: How Spring Works
 layout: default
 ---
